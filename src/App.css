@@ -1,0 +1,17 @@
+#root{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body{
+  background-color: #7E2553;
+}
+
+.main{
+  flex-grow: 1;
+}
+
+.footer-color{
+  background-color: #1D2B53;
+}
