@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&family=Teko:wght@300&display=swap');
+
+/*font-family: 'Space Grotesk',
+sans-serif;
+font-family: 'Teko',
+sans-serif;  */
+
 #root{
   display: flex;
   flex-direction: column;
@@ -6,6 +13,10 @@
 
 body{
   background-color: #7E2553;
+}
+
+h1{
+  font-family: 'Space Grotesk',sans-serif;
 }
 
 .main{
