@@ -1,4 +1,4 @@
-const ListaDeEmpleados = [
+export const ListaDeEmpleados = [
     { id: 1, fullName: "Laya Dueñas", title: "CEO", department: "Business", pic: "avataaars1.png" },
     { id: 2, fullName: "Astryd Vallés", title: "CMO", department: "Marketing", pic: "avataaars2.png" },
     { id: 3, fullName: "Shantell Meza", title: "CFO", department: "Business", pic: "avataaars3.png" },

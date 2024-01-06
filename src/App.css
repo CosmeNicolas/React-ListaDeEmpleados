@@ -26,3 +26,8 @@ h1{
 .footer-color{
   background-color: #1D2B53;
 }
+
+.img{
+  width: 100px;
+  height: 100px;
+}
