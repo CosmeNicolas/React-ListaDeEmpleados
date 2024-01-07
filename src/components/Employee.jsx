@@ -1,14 +1,16 @@
-
-
-const Employee = () => {
+const Employee = ({ListaDeEmpleados}) => {
   return (
-    <div>
-      <h4>ceo</h4>
-      <h5>nombre empleado</h5>
+    <>
+      {ListaDeEmpleados.map((empleado)=>
+      <div key={empleado.id}>
+      <h4>{empleado.title}</h4>
+      <h5>{empleado.fullName}</h5>
       <p className='text-light bg bg-black'>
-        Marketin
+        {empleado.department}
       </p>
     </div>
+        )}
+    </>
   );
 };
 
