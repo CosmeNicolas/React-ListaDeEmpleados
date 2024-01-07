@@ -2,6 +2,7 @@ import { Image } from 'react-bootstrap';
 import Employee from './Employee';
 
 const EmployeeAvatar = ({ ListaDeEmpleados }) => {
+ 
   return (
     <>
     {ListaDeEmpleados.map((empleado)=>
