@@ -1,14 +1,17 @@
 import { Image } from 'react-bootstrap';
-import Avatar1 from '../assets/img/avataaars1.png'
 import Employee from './Employee';
 
 const EmployeeAvatar = ({ ListaDeEmpleados }) => {
   return (
-    <div>
-      <Image className='img' src={Avatar1} roundedCircle />
-      <Employee ListaDeEmpleados={ListaDeEmpleados}/>
+    <>
+    {ListaDeEmpleados.map((empleado)=>
+    <div key={empleado.id}>
+        <Image className='img' src={`../components/data/${empleado.pic}`} roundedCircle />
+        <Employee empleado={empleado} />
     </div>
-  );
+      )}
+    </>
+  )
 };
 
 export default EmployeeAvatar;

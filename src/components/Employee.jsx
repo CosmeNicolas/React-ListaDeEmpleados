@@ -1,7 +1,6 @@
-const Employee = ({ListaDeEmpleados}) => {
+const Employee = ({empleado}) => {
   return (
     <>
-      {ListaDeEmpleados.map((empleado)=>
       <div key={empleado.id}>
       <h4>{empleado.title}</h4>
       <h5>{empleado.fullName}</h5>
@@ -9,7 +8,6 @@ const Employee = ({ListaDeEmpleados}) => {
         {empleado.department}
       </p>
     </div>
-        )}
     </>
   );
 };
