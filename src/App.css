@@ -12,7 +12,7 @@ sans-serif;  */
 }
 
 body{
-  background-color: #7E2553;
+background: #0A1020
 }
 
 h1{
@@ -24,10 +24,27 @@ h1{
 }
 
 .footer-color{
-  background-color: #1D2B53;
+  background: #5c1539;
 }
 
 .img{
   width: 100px;
   height: 100px;
+}
+
+.name{
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.fondo-card{
+  background: #826a76;
+}
+
+.img-list{
+  width: 200px;
+  height: 250px;
+}
+
+.deparment{
+  background: #0A1020
 }

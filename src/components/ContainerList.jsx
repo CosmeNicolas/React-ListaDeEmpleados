@@ -7,8 +7,8 @@ import ListaDeEmpleados from './data/ListaEmpleados';
 
 const ContainerList = () => {
   return (
-    <Container fluid >
-          <EmployeeAvatar ListaDeEmpleados={ListaDeEmpleados}/>
+    <Container fluid>
+          <EmployeeAvatar  ListaDeEmpleados={ListaDeEmpleados}/>
     </Container>
   );
 };

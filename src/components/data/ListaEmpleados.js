@@ -21,7 +21,7 @@ const ListaDeEmpleados = [
     { id: 7, fullName: "Ellen Balderas", title: "Digital Strategist", department: "Marketing", pic: avataaars7 },
     { id: 8, fullName: "Cynthia Valentín", title: "Backend Dev", department: "Engineering", pic: avataaars8 },
     { id: 9, fullName: "Bernard Jung", title: "DevOps Engineer", department: "Engineering", pic: avataaars9 },
-     { id: 9, fullName: "Jerry Perry", title: "DevOps Engineer", department: "Engineering", pic: avataaars10 }
+     { id: 10, fullName: "Jerry Perry", title: "DevOps Engineer", department: "Engineering", pic: avataaars10 }
   ]
 
   export default ListaDeEmpleados

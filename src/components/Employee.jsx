@@ -2,10 +2,10 @@
 const Employee = ({empleado}) => {
   return (
     <>
-      <div key={empleado.id}>
-      <h4>{empleado.title}</h4>
-      <h5>{empleado.fullName}</h5>
-      <p className='text-light bg bg-black'>
+      <div className="text-light"  key={empleado.id}>
+      <h4 className="text-center">{empleado.title}</h4>
+          <h5 className="name  ">{empleado.fullName}</h5>
+      <p className='name  text-center deparment '>
         {empleado.department}
       </p>
     </div>
