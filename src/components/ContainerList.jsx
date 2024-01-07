@@ -8,11 +8,7 @@ import ListaDeEmpleados from './data/ListaEmpleados';
 const ContainerList = () => {
   return (
     <Container fluid >
-      <div className='d-flex flex-column'>
-        <div className='d-flex bg-light rounded-top-1'>
           <EmployeeAvatar ListaDeEmpleados={ListaDeEmpleados}/>
-          </div>
-        </div>
     </Container>
   );
 };

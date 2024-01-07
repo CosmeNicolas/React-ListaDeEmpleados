@@ -5,8 +5,8 @@ const EmployeeAvatar = ({ ListaDeEmpleados }) => {
   return (
     <>
     {ListaDeEmpleados.map((empleado)=>
-    <div key={empleado.id}>
-        <Image className='img' src={`../components/data/${empleado.pic}`} roundedCircle />
+    <div className='br bg-light' key={empleado.id}>
+        <Image className='img' src={empleado.pic} roundedCircle />
         <Employee empleado={empleado} />
     </div>
       )}
