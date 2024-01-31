@@ -1,6 +1,6 @@
 # Lista De Empleados 🤙
 
-Realice un proyecto de una empresa ,cargando una lista de empelados usando React. 
+Desarrollé un proyecto innovador utilizando React para gestionar una lista de empleados de manera eficiente y atractiva. Implementé un diseño moderno e intuitivo que mejora la experiencia del usuario al visualizarlos.
 
 ## Librerias y Framewroks 🛠️
 
